@@ -1,0 +1,37 @@
+[
+  {
+    "type": "class",
+    "methods": [
+      {
+        "params": [
+          {
+            "type": "int",
+            "name": "a",
+            "desc": "参数a"
+          },
+          {
+            "type": "int",
+            "name": "b",
+            "desc": "参数b"
+          }
+        ],
+        "annotation": {},
+        "desc": "求参数a和b的和。",
+        "name": "foo",
+        "return": {
+          "type": "int",
+          "desc": "返回参数a和b的和。"
+        }
+      }
+    ],
+    "events": [],
+    "properties": [],
+    "header": "src/foo.h",
+    "desc": "foo",
+    "name": "foo_t",
+    "annotation": {
+      "fake": true
+    },
+    "level": 1
+  }
+]
