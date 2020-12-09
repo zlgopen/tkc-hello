@@ -18,6 +18,8 @@ git clone https://github.com/zlgopen/tkc-hello.git
 cd tkc-hello
 ```
 
+> 注意：awtk 和 tkc-hello 并列放在同一级目录。
+
 * 编译 PC 版本
 
 ```
