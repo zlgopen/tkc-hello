@@ -1,5 +1,5 @@
 #include "foo.h"
-#include "awtk_tkc.h"
+#include "tkc.h"
 
 int main(int argc, char* argv[]) {
   platform_prepare();

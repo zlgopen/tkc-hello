@@ -13,8 +13,18 @@ def getAwtkSDKPath():
     else:
         return ''
 
+def getTkcOnly():
+    env = os.environ
+    if 'TKC_ONLY' in env:
+        return env['TKC_ONLY'] == 'True'
+    else:
+        return False
+
 def getAwtkOrAwtkLinuxFbRoot(is_linux_fb):
-    if is_linux_fb:
+    if getTkcOnly():
+        print('TKC_ONLY == True');
+        return locateAWTK('tkc')
+    elif is_linux_fb:
         return locateAWTK('awtk-linux-fb')
     else:
         return locateAWTK('awtk')

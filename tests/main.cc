@@ -27,21 +27,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <stdio.h>
-
-#include "awtk.h"
-#include "tkc/mem.h"
-#include "tkc/platform.h"
-
-#include "base/idle.h"
-#include "base/system_info.h"
+#include "tkc.h"
 #include "gtest/gtest.h"
-#include "demos/assets.h"
-#include "conf_io/app_conf_init_json.h"
-#include "tkc/data_reader_file.h"
-#include "tkc/data_reader_factory.h"
-#include "tkc/data_writer_file.h"
-#include "tkc/data_writer_factory.h"
 
 GTEST_API_ int main(int argc, char** argv) {
   platform_prepare();
