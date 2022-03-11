@@ -1,9 +1,9 @@
 ﻿/**
- * File:   foo.c
+ * File:   hello.c
  * Author: AWTK Develop Team
- * Brief:  foo
+ * Brief:  hello
  *
- * Copyright (c) 2018 - 2020  Guangzhou ZHIYUAN Electronics Co.,Ltd.
+ * Copyright (c) 2018 - 2022  Guangzhou ZHIYUAN Electronics Co.,Ltd.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -15,13 +15,13 @@
 /**
  * History:
  * ================================================================
- * 2020-12-07 Li XianJing <xianjimli@hotmail.com> created
+ * 2020-12-07 AUTHOR created
  *
  */
 
-#include "foo.h"
+#include "hello.h"
 
-int foo(int a, int b) {
+int hello(int a, int b) {
   return a + b;
 }
 

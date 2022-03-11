@@ -1,9 +1,9 @@
 ﻿/**
- * File:   foo.h
+ * File:   hello.h
  * Author: AWTK Develop Team
- * Brief:  foo
+ * Brief:  hello
  *
- * Copyright (c) 2018 - 2020  Guangzhou ZHIYUAN Electronics Co.,Ltd.
+ * Copyright (c) 2018 - 2022  Guangzhou ZHIYUAN Electronics Co.,Ltd.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -15,26 +15,26 @@
 /**
  * History:
  * ================================================================
- * 2020-12-07 Li XianJing <xianjimli@hotmail.com> created
+ * 2020-12-07 AUTHOR created
  *
  */
 
-#ifndef TK_FOO_H
-#define TK_FOO_H
+#ifndef TK_HELLO_H
+#define TK_HELLO_H
 
-#include "tkc/types_def.h"
+#include "tkc.h"
 
 BEGIN_C_DECLS
 
 /**
- * @class foo_t
+ * @class hello_t
  * @annotation ["fake"]
  * 
- * foo
+ * hello
  */
 
 /**
- * @method foo
+ * @method hello
  *
  * 求参数a和b的和。
  *
@@ -44,8 +44,8 @@ BEGIN_C_DECLS
  *
  * @return {int} 返回参数a和b的和。
  */
-int foo(int a, int b);
+int hello(int a, int b);
 
 END_C_DECLS
 
-#endif /*TK_FOO_H*/
+#endif /*TK_HELLO_H*/

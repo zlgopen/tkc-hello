@@ -17,7 +17,7 @@
         ],
         "annotation": {},
         "desc": "求参数a和b的和。",
-        "name": "foo",
+        "name": "hello",
         "return": {
           "type": "int",
           "desc": "返回参数a和b的和。"
@@ -26,9 +26,9 @@
     ],
     "events": [],
     "properties": [],
-    "header": "src/foo.h",
-    "desc": "foo",
-    "name": "foo_t",
+    "header": "src/hello.h",
+    "desc": "hello",
+    "name": "hello_t",
     "annotation": {
       "fake": true
     },
