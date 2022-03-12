@@ -2,7 +2,7 @@
 #include "gtest/gtest.h"
 #include "hello.h"
 
-TEST(Foo, basic) {
+TEST(hello, basic) {
   ASSERT_EQ(hello(1, 2), 3);
 }
 
